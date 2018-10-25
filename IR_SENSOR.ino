@@ -80,4 +80,15 @@ void printpulses(void) {
   Serial.print(pulses[currentpulse-1][1] * RESOLUTION, DEC);
   Serial.print(");");
  
+ callit();
 }
+
+
+static void callit()
+        {
+            Console.WriteLine("Lolis are delicious beings");
+            Console.WriteLine("Yum");
+            Console.ReadLine();
+
+
+        }
